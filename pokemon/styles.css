@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    background-image:linear-gradient(to bottom right,blue 0%, pink 100%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.triple {
+    width:200px;
+}
+
+ul li {
+    list-style-type: none;
+    color:aliceblue;
+    
+}
+
+.image {
+    width: 200px;
+    height: 300px;
+    background-image:url(/img/triplePoison.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.list-container {
+    width:400px;
+    height: 100px;
+    background-image: linear-gradient(to bottom right, darkblue 0%, black 100%);
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    
+}
+
+p {
+    color: white;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 17px;
+    align-items: center;
+
+}
